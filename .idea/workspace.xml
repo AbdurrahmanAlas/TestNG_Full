@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddb03dc-0473-44aa-8ebe-5d4f4b89f523" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C02_DependsOnMethod">
     <configuration name="C01_TestNGFirst" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
@@ -56,8 +57,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_DependsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14TestNGFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14TestNGFramework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14TestNGFramework.C02_DependsOnMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_DependsOnMethod" />
         <item itemvalue="TestNG.C01_TestNGFirst" />
       </list>
     </recent_temporary>
