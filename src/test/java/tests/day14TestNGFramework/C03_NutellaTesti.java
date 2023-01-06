@@ -26,6 +26,7 @@ public class C03_NutellaTesti {
 
 
 
+        Driver.closeDriver();
 
 
     }
