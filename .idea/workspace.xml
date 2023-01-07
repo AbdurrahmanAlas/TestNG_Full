@@ -6,12 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3ddb03dc-0473-44aa-8ebe-5d4f4b89f523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/QualityDemiPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ZeroWebAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ZeroWebAppPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C03_PozitiLoginTesti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C01_SoftAssert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C03_PozitifLoginTesti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C04_NegativeLoginTesti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +48,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti">
-    <configuration name="C03_PozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti">
+    <configuration name="C01_PozitifLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_PozitifLoginTesti" />
+      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C01_PozitifLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -62,34 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_PozitifLoginTesti.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_NegativeLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_PozitifLoginTesti" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_NegativeLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
+      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,35 +83,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_NegativeLoginTesti.yanlisEmailTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
+          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
-      <option name="METHOD_NAME" value="yanliEmailYanlisPasswordTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_NegativeLoginTesti.yanlisEmailTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
+      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
       <option name="METHOD_NAME" value="yanlisEmailTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_NegativeLoginTesti.yanlisPasswordTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
+      <option name="METHOD_NAME" value="yanlisPasswordTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
+      <option name="METHOD_NAME" value="yanlisUserNameYanlisPasswordTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti" />
-        <item itemvalue="TestNG.C04_NegativeLoginTesti" />
-        <item itemvalue="TestNG.C04_NegativeLoginTesti.yanlisEmailTesti" />
-        <item itemvalue="TestNG.C03_PozitifLoginTesti.test01" />
-        <item itemvalue="TestNG.C03_PozitifLoginTesti" />
+        <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti" />
+        <item itemvalue="TestNG.C02_NegativeLoginTesti" />
+        <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisPasswordTesti" />
+        <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisEmailTesti" />
+        <item itemvalue="TestNG.C01_PozitifLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/day15/C01_SoftAssert.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C01_SoftAssert.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
