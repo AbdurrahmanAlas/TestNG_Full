@@ -16,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C03_PozitifLoginTesti.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C04_NegativeLoginTesti.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti">
+  <component name="RunManager" selected="TestNG.C01_PozitifLoginTest">
     <configuration name="C01_PozitifLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_PozitifLoginTest" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisPasswordTesti" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisEmailTesti" />
-        <item itemvalue="TestNG.C01_PozitifLoginTest" />
       </list>
     </recent_temporary>
   </component>
