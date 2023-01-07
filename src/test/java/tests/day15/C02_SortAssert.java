@@ -54,10 +54,11 @@ public class C02_SortAssert {
         List<WebElement> optionsElementListesi= select.getOptions();
         List<String> actualOptionsListesiStr= new ArrayList<>();
 
-        for (WebElement each: optionsElementListesi
-        ) {
+        for (WebElement each: optionsElementListesi)
+            {
             actualOptionsListesiStr.add(each.getText());
-        }
+            }
+
         String[] arr={"Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"};
         List<String> expectedOptionsListesi= Arrays.asList(arr);
 

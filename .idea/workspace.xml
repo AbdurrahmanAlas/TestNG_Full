@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
