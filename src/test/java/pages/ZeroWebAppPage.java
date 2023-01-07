@@ -21,8 +21,9 @@ public class ZeroWebAppPage {
     @FindBy(id="user_password")
     public WebElement userpasswordkutusu;
 
-    @FindBy(xpath="//input[@value='Sign in']")
-    public WebElement SıgnInsubmitButonu;
+
+    @FindBy(xpath = "//input[@value=\"Sign in\"]")
+    public WebElement signInSubmitButonu;
 
     @FindBy(xpath = "//strong[text()='Online Banking']")
     public WebElement onlineBanking;

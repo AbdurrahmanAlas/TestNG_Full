@@ -29,7 +29,7 @@ public class C02_SortAssert {
         // 4. Password kutusuna “password” yazin
         zeroWebAppPage.userpasswordkutusu.sendKeys("password");
         // 5. Sign in tusuna basin
-        zeroWebAppPage.signInButonu.click();
+        zeroWebAppPage.signInSubmitButonu.click();
         // 6. Online banking menusu icinde Pay Bills sayfasina gidin
         Driver.getDriver().navigate().back();
         zeroWebAppPage.onlineBanking.click();
