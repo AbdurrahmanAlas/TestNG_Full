@@ -44,59 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C03_PozitifLoginTesti.test01">
-    <configuration name="C02_SortAssert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_SortAssert" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_PozitiLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_PozitiLoginTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_PozitiLoginTesti.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_PozitiLoginTesti" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti">
     <configuration name="C03_PozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
@@ -132,13 +80,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_NegativeLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
+      <option name="METHOD_NAME" value="yanliEmailYanlisPasswordTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_NegativeLoginTesti.yanlisEmailTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C04_NegativeLoginTesti" />
+      <option name="METHOD_NAME" value="yanlisEmailTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_NegativeLoginTesti.yanliEmailYanlisPasswordTesti" />
+        <item itemvalue="TestNG.C04_NegativeLoginTesti" />
+        <item itemvalue="TestNG.C04_NegativeLoginTesti.yanlisEmailTesti" />
         <item itemvalue="TestNG.C03_PozitifLoginTesti.test01" />
         <item itemvalue="TestNG.C03_PozitifLoginTesti" />
-        <item itemvalue="TestNG.C02_SortAssert" />
-        <item itemvalue="TestNG.C03_PozitiLoginTesti" />
-        <item itemvalue="TestNG.C03_PozitiLoginTesti.test01" />
       </list>
     </recent_temporary>
   </component>
