@@ -37,8 +37,8 @@ public class C02_SortAssert {
         // 7. “Purchase Foreign Currency” tusuna basin
         zeroWebAppPage.purchaseFCButonu.click();
         // 8. “Currency” drop down menusunden Eurozone’u secin
-        Select select = new Select(zeroWebAppPage.currencyDropdown);
-        select.selectByVisibleText("Eurozone (euro)");
+        Select select = new Select(zeroWebAppPage.currencyDropdown);  //DROPDOWN SECERKEN SELECT OBJESİNİ CAGIR
+        select.selectByVisibleText("Eurozone (euro)");               // SELECTBYVİSİBLE GÖRÜNÜR OLMA
         // 9. soft assert kullanarak "Eurozone (euro)" secildigini test edin
         SoftAssert softAssert= new SoftAssert();
         String actualDropdownSecim= select.getFirstSelectedOption().getText();

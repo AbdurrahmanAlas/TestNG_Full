@@ -10,8 +10,7 @@ public class C03_PozitifLoginTesti {
 
     @Test
     public void test01() throws InterruptedException {
-        // baska bır srun var mı guzel ınsan  Allah razı olsun cok tesekkur ederöm
-        // hayırlı gunler iyi gunler kolay gelsin
+
         // 1- https://www.qualitydemy.com/ anasayfasina gidin
         Driver.getDriver().get("https://www.qualitydemy.com/");
         // 2- login linkine basin

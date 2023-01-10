@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3ddb03dc-0473-44aa-8ebe-5d4f4b89f523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/QualityDemiPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ZeroWebAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ZeroWebAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C02_DependsOnMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14TestNGFramework/C03_NutellaTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C01_SoftAssert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C02_SortAssert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C03_PozitifLoginTesti.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15/C04_NegativeLoginTesti.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C01_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C01_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C02_SortAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C02_SortAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C03_PozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C03_PozitifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_SmokeTest/C01_PozitifLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_SmokeTest/C01_PozitifLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +37,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C01_PozitifLoginTest">
+}</component>
+  <component name="RunManager" selected="TestNG.C02_SortAssert">
     <configuration name="C01_PozitifLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Course" />
       <extension name="coverage">
@@ -78,24 +72,6 @@
       <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
       <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_NegativeLoginTesti.yanlisEmailTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_SmokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_SmokeTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_SmokeTest.C02_NegativeLoginTesti" />
-      <option name="METHOD_NAME" value="yanlisEmailTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,13 +114,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_SortAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15_SoftAssert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15_SoftAssert" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15_SoftAssert.C02_SortAssert" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_SortAssert" />
         <item itemvalue="TestNG.C01_PozitifLoginTest" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisUserNameYanlisPasswordTesti" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti" />
         <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisPasswordTesti" />
-        <item itemvalue="TestNG.C02_NegativeLoginTesti.yanlisEmailTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -169,16 +162,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/day15_SoftAssert/C01_SoftAssert.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -14,12 +14,14 @@ public class C01_SoftAssert {
         // amazon anasayfaya gidin
         Driver.getDriver().get("https://www.amazon.com");
         // amazon anasayfaya gittiginizi dogrulayin
-        SoftAssert softAssert= new SoftAssert();
-        String expectedUrlKelime="amazon";
-        String actualUrl= Driver.getDriver().getCurrentUrl();
+        SoftAssert softAssert= new SoftAssert();                 //dogrulayiin kelimesini görünce SOFTASSERT i objeyi getiririz.
+
+        String expectedUrlKelime="amazon";                       // Beklenen Url
+        String actualUrl= Driver.getDriver().getCurrentUrl();    // Actual Url
         softAssert.assertTrue(actualUrl.contains(expectedUrlKelime),"Url amazon icermiyor");
+        // actual url içinde expectedurl varmı diye kontrol ederiz.
         // Nutella aratin
-        AmazonPage amazonPage= new AmazonPage();
+        AmazonPage amazonPage= new AmazonPage();    //AmazonPage sayfası olusturup . nesne üretiriz.
         amazonPage.amazonAramaKutusu.sendKeys("Nutella" + Keys.ENTER);
 
         // arama sonuclarinin nutella icerdigini dogrulayin

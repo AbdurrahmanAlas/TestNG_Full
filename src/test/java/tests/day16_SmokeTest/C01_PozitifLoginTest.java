@@ -12,8 +12,9 @@ public class C01_PozitifLoginTest {
     @Test
     public void pozitifLoginTest(){
         //qualitydemi anasayfaya git
-        ReusableMethods.bekle(4);
+
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
+        ReusableMethods.bekle(4);
 
         QualitydemyPage qualitydemyPage=new QualitydemyPage();
         qualitydemyPage.ilkLoginLinki.click();
@@ -28,7 +29,7 @@ public class C01_PozitifLoginTest {
 
         ReusableMethods.bekle(3);
 
-        Assert.assertTrue(qualitydemyPage.basariliGirisCoursesLinki.isDisplayed());
+        Assert.assertTrue(qualitydemyPage.basariliGirisCoursesLinki.isDisplayed() );
         Driver.closeDriver();
     }
 
